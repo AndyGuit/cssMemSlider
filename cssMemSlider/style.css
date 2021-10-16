@@ -170,3 +170,10 @@ label::before {
   background-image: url(img/4.jpg);
   animation-name: scale-up-center;
 }
+
+@media (max-width: 768px) {
+  .bottom {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
